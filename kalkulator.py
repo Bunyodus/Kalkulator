@@ -3,6 +3,7 @@ from PyQt5.QtGui import QPalette, QBrush, QPixmap
 from PyQt5.QtCore import Qt
 
 class MyWin(QWidget):
+    """"Kalkulator yasaldi shu class orqali"""
     def __init__(self):
         super().__init__()
         self.set_background("1.png")
